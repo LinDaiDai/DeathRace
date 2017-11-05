@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body,#p1,.p1_wrap,#p2,#p3,.p2_wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#p1{
+    position: relative;
+    background: url("../img/主页背景.png") no-repeat;
+    background-size: 100% 100%;
+}
+.p1_wrap{
+    position:relative;
+    margin: 0 auto;
+}
+#img1{
+    width: 36%;
+    height: 6%;
+    position: absolute;
+    top: 46%;
+    left: 12%;
+}
+#img2{
+    width: 42%;
+    height: 14%;
+    position: absolute;
+    top: 38%;
+    left: 51%;
+}
+#img3{
+    width: 51%;
+    height: 8%;
+    position: absolute;
+    top: 53%;
+    left: 35%;
+}
+.sexp{
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+}
+.sexp2{
+    font-family: "微软雅黑";
+    color: rgb(232,254,5);
+    font-size: 0.8em;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    letter-spacing: 0.05em;
+}
+.btn{
+    position: absolute;
+    border: none;
+    width: 69%;
+    height: 7%;
+    color: #eee;
+    font-size: 1.2em;
+    background-color: rgb(255,139,2);
+    font-family: "微软雅黑";
+    background-repeat: no-repeat;
+    background-position: 22% 50%;
+    background-size: 25px 25px;
+    border-radius: 0.3em;
+}
+#gameStart{
+    bottom: 5%;
+    left: 15%;
+    background-image: url("../img/开始按钮.png");
+}
+#p2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.gameGuide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.7);
+}
+.gameGuide_wrap{
+    width: 90%;
+    height: 53%;
+    position: relative;
+    left: 5%;
+    top: 17%;
+    font-weight: bold;
+    z-index: 2;
+    background-image: url("../img/规则背景.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.p_guide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.div_guide{
+    position: absolute;
+    width: 76%;
+    height: 20%;
+    font-size: 1em;
+    left: 12%;
+    top: 14%;
+    color: rgb(16,60,3);
+}
+.div_rule{
+    width: 30%;
+    height: 10%;
+    color: rgb(255,114,6);
+    font-size: 0.95em;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    position: absolute;
+    left: 12%;
+    top: 70%;
+}
+.div_count{
+    width: 76%;
+    height: 20%;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    position: absolute;
+    left: 12%;
+    top: 79%;
+    color: rgb(48,136,22);
+}
+.p2_wrap{
+    position: relative;
+    background: -webkit-gradient(linear, 100% 0, 100% 100%, from(rgb(118,183,11)), to(rgb(18,70,3)));
+}
+.showTime{
+    position: absolute;
+    margin: 0 auto;
+    width: 33%;
+    padding: 8px 25px;
+    text-align: center;
+    color:rgb(40,134,13);
+    background: rgb(250,219,6);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    left: 27%;
+}
+.showTime span{
+    color: red;
+}
+#timer{
+    top: 3%;
+
+}
+#seconder{
+    top: 10%;
+}
+.stone{
+    background-color: rgb(188,223,68);
+    border: 2px solid rgb(74,168,46);
+    position: absolute;
+}
+#stone1{
+    top: 40%;
+    left: 10%;
+    width: 11%;
+    height: 28%;
+}
+#stone2{
+    width: 18%;
+    height: 9%;
+    top: 22%;
+    left: 55%;
+}
+#stone3{
+    width: 18%;
+    height: 15%;
+    left: 75%;
+    top: 41%;
+}
+#stone4{
+    width: 42%;
+    height: 13%;
+    top: 61%;
+    left: 31%;
+}
+#race{
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    top: 40%;
+    width: 17%;
+    height: 17%;
+    background-image: url("../img/小汽车.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#p3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/结束背景.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+}
+.isc{
+    text-align: center;
+    font-size: 1em;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    position: relative;
+    top: 37%;
+}
+#cxl{
+    width: 3.5em;
+    height: 1.2em;
+}
+#score{
+    font-family: "微软雅黑";
+    font-size: 2.5em;
+    color: rgb(229,250,52);
+    margin: 5px;
+}
+#fz{
+    width: 3.5em;
+    height: 1.2em;
+}
+#shareBtn{
+    bottom: 16%;
+    left: 16%;
+}
+#againBtn{
+    bottom: 7.5%;
+    left: 16%;
+}
+.fadeRace{
+    animation: fade 0.5s linear 2;
+}
+@keyframes fade {
+    from{opacity: 1}
+    to{opacity: 0}
+}

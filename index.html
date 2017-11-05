@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeathRace</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <div id="p1">
+        <div class="p1_wrap">
+            <img src="img/持久力.png" alt="" id="img1">
+            <img src="img/爆炸.png" alt="" id="img2">
+            <img src="img/大挑战.png" alt="" id="img3">
+            <div class="sexp">
+                参与持久力大挑战，有机会赢<br>
+                iphoneX(共1台)、iphone6（共10台）、话费卡（共20张）、品牌T恤（共50件）等精美礼品哦!
+
+            </div>
+            <p class="sexp2">活动时间:2017年9月17日-11月15日</p>
+            <div id="button">
+                <input class="btn" type="button" id="gameStart" value="开始游戏">
+            </div>
+        </div>
+
+    </div>
+    <div id="p2">
+        <div class="gameGuide">
+            <div class="gameGuide_wrap">
+                <p class="p_guide">游戏说明</p>
+                <div class="div_guide">
+                    操纵您的金色座驾躲避路障的夹击，碰到路障或者屏幕边缘则算失败。
+                </div>
+                <div class="div_rule">计分规则:</div>
+                <div class="div_count">
+                    以上单位为虚拟时间，现实中1秒钟即为游戏虚拟的1分钟
+                </div>
+            </div>
+        </div>
+        <div class="p2_wrap">
+            <div class="stone" id="stone1"></div>
+            <div class="stone" id="stone2"></div>
+            <div class="stone" id="stone3"></div>
+            <div class="stone" id="stone4"></div>
+            <div id="race"></div>
+            <div class="showTime" id="timer"><span id="time">0</span>分钟</div>
+            <div class="showTime" id="seconder"><span id="second">0</span>秒钟</div>
+        </div>
+    </div>
+    <div id="p3">
+        <div class="p1_wrap">
+            <p class="isc">
+                <img src="img/持续了.png" alt="" id="cxl">
+                <span id="score"></span>
+                <img src="img/分钟.png" alt="" id="fz">
+            </p>
+            <div id="share">
+                <input class="btn" type="button" id="shareBtn" value="分享给好友">
+            </div>
+            <div id="again">
+                <input class="btn" type="button" id="againBtn" value="重玩一次">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/touch.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
