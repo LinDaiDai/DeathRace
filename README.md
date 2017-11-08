@@ -21,16 +21,16 @@ this is a mobile game of DeathRace
 
 **主页面**
 
-![home](E:\DeathRace\img\readme\home.png)
+![home](https://github.com/LinDaiDai/DeathRace/blob/master/img/readme/home.png?raw=true)
 
 
 
 **游戏开始**
 
-![fight](E:\DeathRace\img\readme\fight.png)
+![fight](https://github.com/LinDaiDai/DeathRace/blob/master/img/readme/fight.png?raw=true)
 
 
 
 **游戏结束**
 
-![gameover](E:\DeathRace\img\readme\gameover.png)
+![gameover](https://github.com/LinDaiDai/DeathRace/blob/master/img/readme/gameover.png?raw=true)
